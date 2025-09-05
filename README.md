@@ -3,7 +3,7 @@
 <div align="center">
   <img src="figures/klear-logo-02.png" width="500"/>
   <p>
-    🤗 <a href="https://huggingface.co/Kwai-Klear">Hugging Face</a> |  📑 <a href="https://github.com/Kwai-Klear/Klear1.0">Technique Report</a> |  💬 <a href="https://github.com/Kwai-Klear/Klear1.0/issues">Issues & Discussions</a>
+    🤗 <a href="https://huggingface.co/Kwai-Klear">Hugging Face</a> |  📑 <a href="https://huggingface.co/Kwai-Klear/Klear-46B-A2.5B-Base">Technique Report</a> |  💬 <a href="https://github.com/Kwai-Klear/Klear1.0/issues">Issues & Discussions</a>
   </p>
 </div>
 
@@ -90,7 +90,7 @@ The base and instruction tuned + DPO models have the following architecture:
 
 Note:
 1. `*`During pretraining, we found that the HumanEval metric fluctuated significantly and was extremely sensitive to formatting. Therefore, we referred to the prompt from Ling-series paper to modify the original HumanEval. The results in the table are the evaluation metrics after this modification. 
-2. For Mimo-base-7B, the results marked with `*` are sourced from their public report, other evaluations are conducted based on internal evaluation frameworks.
+2. Results marked with `*` are sourced from their public report, other evaluations are conducted based on internal evaluation frameworks.
 
 ### Klear-46B-A2.5B-Instruct Evaluation Results
 | Ability       | Benchmark                   | Klear-46B-A2.5B--Instruct | InternLM3-8B-Instruct | MiniCPM4-8B | Qwen3-8B (NoThink) | gemma3-12b-it | Phi4-14B | Qwen3-30B-A3B-2507 |
