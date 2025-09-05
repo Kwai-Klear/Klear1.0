@@ -207,7 +207,7 @@ prompt = tokenizer.apply_chat_template(
 )
 
 sampling_params = SamplingParams(
-    temperature=0.6, top_p=0.8, max_tokens=512
+    temperation=0.6, top-p=0.95, top-k=40
 )
 
 outputs = llm.generate([prompt], sampling_params)
