@@ -36,7 +36,7 @@ As a result, Klear-46B-A2.5B-Base matches or surpasses the performance of dense 
 
 The base and instruction tuned + DPO models have the following architecture:
 
-| **propoty**               | **value**                                                              |
+| **key**               | **value**                                                              |
 |---------------------------|------------------------------------------------------------------------|
 | hidden_size       | 2048                                                                     |
 | moe_intermediate_size                  | 896                                                                    |
