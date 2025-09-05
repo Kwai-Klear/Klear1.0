@@ -3,7 +3,7 @@
 <div align="center">
   <img src="figures/klear-logo-02.png" width="500"/>
   <p>
-    🤗 <a href="https://huggingface.co/Kwai-Klear">Hugging Face</a> |  📑 <a href="https://huggingface.co/Kwai-Klear/Klear-46B-A2.5B-Base">Technique Report</a> |  💬 <a href="https://github.com/Kwai-Klear/Klear1.0/issues">Issues & Discussions</a>
+    🤗 <a href="https://huggingface.co/Kwai-Klear">Hugging Face</a> | 💻 <a href="https://github.com/Kwai-Klear/Klear1.0/tree/main">Github Repository</a> |  📑 <a href="https://huggingface.co/Kwai-Klear/Klear-46B-A2.5B-Base">Technique Report</a> |  💬 <a href="https://github.com/Kwai-Klear/Klear1.0/issues">Issues & Discussions</a>
   </p>
 </div>
 
