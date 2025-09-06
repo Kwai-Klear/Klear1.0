@@ -128,7 +128,7 @@ Note:
 
 ### Inference with huggingface
 
-You can now inference in Transformers starting from version `4.56.0`.
+You can now inference in Transformers starting from version `4.56.0` and `set trust_remote_code=True`.
 
 #### Klear-46B-A2.5B-Base
 
