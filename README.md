@@ -69,7 +69,7 @@ The base and instruction tuned + DPO models have the following architecture:
 | ----------- | ---------------------- | -------------------- | ------------ | ------------- | -------------- | ------------------ | ------------------ |
 |             | # Total Params         | 46B                  | 7B           | 8B            | 14B            | 16.8B              | 30B                |
 |             | # Activated Params     | 2.5B                 | 7B           | 8B            | 14B            | 2.75B              | 3B                 |
-| **Code**    | HumanEval (0-shot*)    | 89                   | -            | 84.1          | 87.8           | 83.5               | 90.9               |
+| **Code**    | HumanEval (0-shot†)    | 89                   | -            | 84.1          | 87.8           | 83.5               | 90.9               |
 |             | MBPP (3-shot)          | 76                   | 69.2*        | 69            | 74             | 66.6               | 75.6               |
 | **Math**    | MATH (4-shot, cot)     | 55.7                 | 38.8         | 60.8*         | 62.02*         | 59.9               | 59.04*             |
 |             | CMATH (3-shot)         | 87.83                | 78.5         | 88.3          | 90.7           | 85.7               | 89.7               |
@@ -89,8 +89,8 @@ The base and instruction tuned + DPO models have the following architecture:
 |             | Average                | 69.66                | -            | 66.62         | 69.60          | 65.60              | 70.41              |
 
 Note:
-1. `*`During pretraining, we found that the HumanEval metric fluctuated significantly and was extremely sensitive to formatting. Therefore, we referred to the prompt from Ling-series paper to modify the original HumanEval. The results in the table are the evaluation metrics after this modification. 
-2. Results marked with `*` are sourced from their public report, other evaluations are conducted based on internal evaluation frameworks.
+1. Results marked with `*` are sourced from their public report, other evaluations are conducted based on internal evaluation frameworks.
+2. `†`During pretraining, we found that the HumanEval metric fluctuated significantly and was extremely sensitive to formatting. Therefore, we referred to the prompt from Ling-series paper to modify the original HumanEval. The results in the table are the evaluation metrics after this modification. 
 
 ### Klear-46B-A2.5B-Instruct Evaluation Results
 | Ability       | Benchmark                   | Klear-46B-A2.5B--Instruct | InternLM3-8B-Instruct | MiniCPM4-8B | Qwen3-8B (NoThink) | gemma3-12b-it | Phi4-14B | Qwen3-30B-A3B-2507 |
