@@ -184,6 +184,7 @@ An OpenAI-compatible API will be available at `http://localhost:8000/v1`.
 
 Or you can refer to the following Python script for offline inference
 ```python
+import torch
 from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer
 
